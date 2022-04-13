@@ -1,0 +1,112 @@
+.container {
+    background-image: url("../../../../assets/images/bghorse.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    position: relative;
+}
+
+.infos {
+    width: 350px;
+    position: relative;
+    top: 40px;
+    left: 65%;
+    text-align: center;
+    padding: 10px 10px;
+    background-color: rgba(54, 45, 29,1);
+    border: 1px solid #fff;
+}
+
+.infos h2 {
+    margin: 0;
+    color: lightgreen;
+    line-height: 40px;
+}
+
+.infos hr {
+    height: 1px;
+    background-color: lightgreen;
+    border: none;
+}
+
+.infos p {
+    color: #fff;
+    line-height: 30px;
+}
+
+.pourqui-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    background-image: url("../../../../assets/images/wood.jpg");
+    background-repeat: repeat;
+}
+
+.pourqui-container h1 {
+    letter-spacing: 4px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.flex-container {
+    width: 98%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards {
+    position: relative;
+    width: 450px;
+    height: 350px;
+    background-color: #000;
+    box-shadow: 0 30px 30px rgba(0, 0, 0, .5);
+}
+
+.cardImg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.cards:hover .cardImg img {
+    opacity: 0;
+}
+
+.content {
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+    width: 80%;
+    height: 60px;
+    background: #fff;
+    transition: 0.5s;
+    overflow: hidden;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.cards:hover .content {
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.content ul li {
+    margin: 10px 0 0;
+    padding: 0;
+    opacity: 0;
+    transition: 0.5s;
+    text-align: justify;
+}
+
+.cards:hover .content ul li {
+    opacity: 1;
+    transition: 0.5s;
+}

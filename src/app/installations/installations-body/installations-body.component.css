@@ -1,0 +1,61 @@
+.installations-container {
+    width: 100%;
+    background-image: url("../../../assets/images/wood.jpg");
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+}
+
+.installations-container h2 {
+    margin: 0;
+    text-align: center;
+    font-size: 36px;
+}
+
+#install-p {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.cards-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards {
+    width: 400px;
+    height: 300px;
+    position: relative;
+}
+
+.cards img {
+    width: 100%;
+    display: block;
+    background-size: cover;
+}
+
+.card-info {
+    position: absolute;
+    width: 400px;
+    height: 120px;
+    background-color: rgba(54, 45, 29,1);
+    z-index: 1;
+}
+
+#title {
+    color: #fff;
+    text-align: center;
+}
+
+.description {
+    color: lightgreen;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+}

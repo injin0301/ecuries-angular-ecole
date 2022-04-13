@@ -1,0 +1,15 @@
+<div class="installations-container">
+    <h2>Nos installations</h2>
+    <p id="install-p">Les écuries de persévère est une entreprise jeune et dynamique en pleine expansion. Chaque hiver, nous nous efforçons de restaurer certaines parties de la propriété et de faire des travaux d'entretien et/ou de nouveaux aménagements pour le plus grand confort de nos pensionnaires.</p>
+
+    <div class="cards-box" *ngFor="let installation of installations;">
+        <div class="cards">
+            <img src="{{installation.image}}" alt="">
+            <div class="card-info">
+                <p id="title">{{installation.title}}</p>
+                <p class="description">{{installation.size}}</p>
+                <p class="description">{{installation.description}}</p>
+            </div>
+        </div>
+    </div>
+</div>

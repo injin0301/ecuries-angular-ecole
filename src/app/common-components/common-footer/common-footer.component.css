@@ -1,0 +1,52 @@
+.footer-container {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.811);
+}
+
+.left-side {
+    margin: auto;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-side {
+    margin: auto;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logoimg {
+    width: 200px;
+    height: 200px;
+}
+
+.left-side h2 {
+    color: #fff;
+}
+
+.right-side h2, .right-side p {
+    color: #fff;
+}
+
+hr {
+    width: 40%;
+    color: #fff;
+}
+
+svg {
+    width: 50px;
+    cursor: pointer;
+    padding: 0px 10px;
+}
+
+.icons-box {
+    display: flex;
+}

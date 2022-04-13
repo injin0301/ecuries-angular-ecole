@@ -1,0 +1,56 @@
+<div class="equipe-container">
+    <div class="karine-cv">
+        <img id="karine" src="../../../assets/images/karine_cheval.jpg" alt="">
+        <div class="info">
+            <h3>Karine MASSOT</h3>
+            <p>Auprès  des chevaux depuis sa naissance, Karine a grandi dans les troupeaux de poneys et chevaux de l’élevage familial.</p>
+            <p>En selle depuis ses 3 ans, Karine a reçu une formation complète auprès de nombreux cavaliers de haut niveau : Pascale Massot-Dandoy, Philippe Limousin, Alain Franckville, Serge Balbin, Patrick Le Rolland, Wilfried Pierrot.</p>
+            <p>Elle évoluera en compétition de dressage jusqu’à intégrer l’équipe de France de dressage espoir de l’âge de 14 à 18 ans.</p>
+
+            <ul>
+                <li>2009, BPJEPS AE mention Equitation (Prépa-sports)</li>
+                <li>2010, Certificat de gestion des entreprises hippiques (GHN)</li>
+                <li>2011, ouverture des écuries de Persévère</li>
+                <li>2011, formation auprès d’Antoine Cloux, puis formation en autodidacte de diverses méthodes tels que Monty Roberts, Buck Brannaman, Martin Black</li>
+                <li>2015-2017, Diplôme universitaire en Ethologie Equine (université de Rennes 1)</li>
+                <li>2016, Certificat de conseiller en nutrition et alimentation Equine (université de Laval - Quebec CA)</li>
+                <li>2021, formation en Psychologie et Ethologie (Humanimalis)</li>
+                <li>Depuis 2015, de nombreuses formations ou initiations complémentaires :</li>
+                
+                <p> - Saddle-fitting (Eugénie Cottereau)<br>
+                    - Massothérapie (Caroline Mailly et Emilie Valente)<br>
+                    - Bit-Fitting (Karin Toetenel)<br>
+                    - Naturopathie (Frédérique Robin)<br>
+                    - Biomécanique Equine (Gillian Higgins)
+                    - Méthode Tellington (Danielle Dibbens)<br>
+                    - Longues-rênes (Deborah Sokic)<br>
+                    - Equitation Centrée (Brigitte Remillon)<br>
+                    - Préparation mentale (Bianca Roch)<br>
+                    - Communication Animale (Ophélie Plaa)<br>
+                    - Parage phyiologique (Eric Bargouth)<br>
+                    - Equitation Alexander (Françoise Cutiver-Jacquier)<br>
+                    - Ostéopathie Equine (Marie Claveau)</p>
+            </ul>
+
+            <p>Chaque formation, initiation est toujours suivie de recherches personnelles.</p>
+        </div>
+    </div>
+
+    
+    <iframe src="https://www.youtube.com/embed/xl9Yt_wpBtc?wmode=transparent&autoplay=0&mute=0&theme=dark&controls=1&autohide=1&loop=0&showinfo=0&rel=0&enablejsapi=0" 
+            title="Ecuries de persevere"></iframe>
+   
+
+    <div class="les-autres" *ngFor="let worker of workers;">
+        <div class="displayflex">
+            <img src="{{worker.image}}" alt="">
+            <div class="infos">
+                <p>{{worker.name}}</p>
+                <p>{{worker.position}}</p>
+                <p>{{worker.description}}</p>
+            </div>
+        </div>
+        
+    </div>
+</div>
+

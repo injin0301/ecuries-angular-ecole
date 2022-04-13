@@ -1,0 +1,90 @@
+.map-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-image: url("../../../assets/images/wood.jpg");
+    width: 100%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+}
+
+.left-infos {
+    width: 300px;
+    padding: 10px 10px;
+    background-color: rgba(54, 45, 29,1);
+    border: 1px solid #fff;
+    margin-right: 40px;
+}
+
+.left-infos h2 {
+    margin: 0;
+    color: lightgreen;
+}
+
+.left-infos hr {
+    width: 60%;
+}
+
+.left-infos p {
+    text-align: center;
+    color: #fff;
+    line-height: 30px;
+}
+
+/* //////////////////// */
+.right-infos {
+    margin-left: 40px;
+}
+
+.right-infos form {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-infos h2 {
+    font-size: 30px;
+    color: rgba(54, 45, 29,1);
+    letter-spacing: 2px;
+}
+
+.flex-box {
+    display: flex;
+}
+
+input[type="text"] {
+    padding: 10px 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(54, 45, 29,1);
+    border: 1px solid #fff;
+}
+
+textarea {
+    margin-bottom: 10px;
+    background-color: rgba(54, 45, 29,1);
+    border: 1px solid #fff;
+}
+
+.ml {
+    margin-right: 10px;
+}
+
+.right-infos button {
+    width: 100px;
+    padding: 8px 10px;
+    background-color: rgba(54, 45, 29,1);
+    color: lightgreen;
+}
+
+iframe {
+    width: 880px;
+    height: 300px;
+    margin-top: 40px;
+}
