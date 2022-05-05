@@ -1,0 +1,112 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+
+    background-image: url("../../../assets/images/wood.jpg");
+}
+
+.background-img {
+    margin: auto;
+    width: 70%;
+    height: 220px;
+    margin-top: 20px;
+    background-image: url("../../../assets/images/entrance.jpg");
+    background-size: contain;
+}
+
+#userImage {
+    display: block;
+    width: 200px;
+    height: 210px;
+
+    object-fit: cover;
+
+    position: relative;
+    margin: auto;
+    margin-top: -7%;
+    z-index: 1;
+
+    border: 3px solid lightgray;
+}
+
+.left-info {
+    width: 40%;
+}
+
+.profile-form {
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: -8.5%;
+    margin-bottom: 40px;
+    background-color: #e9e9e9;
+    text-align: center;
+
+}
+
+.profile-form h2 {
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #007bb4;
+}
+
+.profile-form p {
+    margin: 0;
+    color: #76b5c5;
+    font-size: 20px;
+    letter-spacing: 2px;
+
+}
+
+.profile-form input {
+    display: block;
+    border-color: #007bb4;
+}
+
+.profile-form input[type="text"] {
+    padding: 15px 80px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    outline: none;
+    border: 3px solid #abdbe3;
+}
+
+.profile-form input[type=text]:focus {
+    border: 3px solid #007bb4;
+  }
+
+.flex-input {
+    display: flex;
+}
+
+.first-flex {
+    margin-top: 40px;
+}
+
+.input-box {
+    margin-top: 80px;
+}
+
+.input-box button {
+    margin-top: 40px;
+    padding: 8px 20px;
+    border: 3px solid #007bb4;
+    
+    cursor: pointer;
+}
+
+.input-box button:hover {
+    color: #fff;
+    background-color: #76b5c5;
+}
+
+#email {
+    padding: 15px 240px;
+}
+
+#zipcode, #ville {
+    padding: 10px 20px;
+}

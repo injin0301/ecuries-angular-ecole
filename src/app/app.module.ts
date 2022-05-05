@@ -31,6 +31,14 @@ import { ContactBodyComponent } from './contact/contact-body/contact-body.compon
 // STAGES PAGE
 import { StagesBodyComponent } from './prestations/stages/stages-body/stages-body.component';
 
+// PROFILE PAGE
+import { ProfileBodyComponent } from './profile/profile-body/profile-body.component';
+
+// RDV PAGE
+import { RdvBodyComponent } from './prestations/rdv/rdv-body/rdv-body.component';
+
+
+
 
 
 
@@ -43,7 +51,11 @@ const routes : Routes = [
   { path : 'formulesettarifs', component : FormulesTarifsBodyComponent },
   { path : 'contact', component : ContactBodyComponent },
   { path : 'stages', component : StagesBodyComponent },
+  { path : 'profile', component : ProfileBodyComponent },
+  { path : 'service-rdv', component : RdvBodyComponent },
 
+
+  { path : '', redirectTo : '/home', pathMatch : 'full' }
 ]
 
 @NgModule({
@@ -59,6 +71,9 @@ const routes : Routes = [
     FormulesTarifsBodyComponent,
     ContactBodyComponent,
     StagesBodyComponent,
+    ProfileBodyComponent,
+    RdvBodyComponent,
+    
    
    
     
