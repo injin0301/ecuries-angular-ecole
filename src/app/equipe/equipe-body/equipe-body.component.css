@@ -2,7 +2,7 @@
     width: 100%;
     background-image: url("../../../assets/images/wood.jpg");
     background-repeat: repeat;
-  
+    padding-bottom: 20px;
 }
 
 .karine-cv {
@@ -58,8 +58,27 @@ iframe {
     display: flex;
 }
 
+.displayflex img {
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 .infos {
     display: flex;
     flex-direction: column;
+}
+
+.infos p {
+    padding: 0 5px;
+    color: #fff;
+}
+
+#position {
+    color: lightgreen;
+}
+
+#description {
+    line-height: 20px;
 }
