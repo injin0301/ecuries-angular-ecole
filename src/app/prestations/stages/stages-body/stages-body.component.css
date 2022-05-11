@@ -64,7 +64,13 @@
 
 .planning h3, .planning p {
     margin: 0;
+    padding-top: 10px;
     text-align: center;
+}
+
+#lastphrase {
+    font-size: 18px;
+    line-height: 30px;
 }
 
 .cards-flex {
@@ -75,6 +81,7 @@
 .cards {
     display: flex;
     justify-content: center;
+    margin-top: 10px;
 }
 
 .cards img {
@@ -92,6 +99,10 @@
     flex-direction: column;
 }
 
+.card-infos h3 {
+    padding-top: 20px;
+}
+
 .card-infos a {
     margin: auto;
     display: inline-block;
@@ -105,12 +116,13 @@
 .big-card {
     width: 800px;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 10px;
+    padding-top: 40px;
     background-color: antiquewhite;
 }
 
 .big-card a {
-    display: inline-block;
+    display: block;
     margin-left: 50%;
   
 }
@@ -127,4 +139,26 @@
     height: 300px;
     margin: auto;
     object-fit: cover;
+}
+
+.linkbtn {
+    display: block;
+    padding: 8px 10px;
+    text-decoration: none;
+    background-color: rgba(211, 211, 211, 0.619);
+    border-radius: 4px;
+    color: black;
+}
+
+#centeredbtn {
+    display: block;
+    width: 100px;
+    text-align: center;
+    margin-left: 45%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#fourthtitle {
+    padding-top: 60px;
 }
